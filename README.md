@@ -10,6 +10,10 @@ Nine years after its release, and more than thirteen years since it was original
 
 Thanks to everyone who’s supported Panoply over the years — it’s been a dream come true to develop this software, and to have folks take an enthusiastic interest in it. I've still got a lot of thoughts (maybe even some good ones!) about where authoring tools for digital comics need to go, but for now I'm choosing to focus on [other endeavors](https://erikloyer.com). Cheers!
 
+# Getting started
+
+Visit the [release page](https://github.com/eloyer/panoply/releases/tag/1.7.2) to download the main Panoply 1.7.2 package, documentation, and optional LeanLocalization and PlayMaker packages, or download the source project.
+
 # Helpful links
 
 [Marketing page](https://opertoon.com/panoply)
