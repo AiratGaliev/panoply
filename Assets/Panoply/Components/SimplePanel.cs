@@ -143,7 +143,7 @@ namespace Opertoon.Panoply {
 				}
 			}
 
-			if (GraphicsSettings.renderPipelineAsset == null) {
+			if (GraphicsSettings.defaultRenderPipeline == null) {
 				_panelEffect = gameObject.GetComponent<PanelEffects> ();
 				if (_panelEffect == null) {
 					_panelEffect = gameObject.AddComponent<PanelEffects> ();
@@ -289,7 +289,7 @@ namespace Opertoon.Panoply {
 
 			// for some reason if the matte is fully black it won't be drawn at all
 			if (matteColor == Color.black) matteColor.r += .001f;
-			if (GraphicsSettings.renderPipelineAsset == null) {
+			if (GraphicsSettings.defaultRenderPipeline == null) {
 				_panelEffect.matteColor = matteColor;
 				_panelEffect.border.SetSize (borderSize);
 				_panelEffect.borderColor = borderColor;
